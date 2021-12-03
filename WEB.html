@@ -72,13 +72,12 @@
 <style type="text/css">
 	
 span#Contact{
-
-       /* position: relative; */
+    /* position: relative; */
     /* left: 136px; */
     padding: 6px;
     font-size: xx-large;
     font-variant: all-petite-caps;
-    background: #b53f3f;
+    background: #f100f100;
     text-decoration: none;
     border-bottom: inset;
     /* top: 22px; */
@@ -90,6 +89,7 @@ span#Contact{
     flex-wrap: nowrap;
     text-align: center;
     justify-content: space-evenly;
+
 }
 
 
@@ -117,8 +117,8 @@ img#logo{
 	body{
 
 
-    background-image: url("https://skilllabbrasil.com.br/client_files/products/front-end-developer-full.png");
-    background-size: contain;
+    background-image: url("https://1.bp.blogspot.com/-lJrkrERy6LM/XaqKjexgMYI/AAAAAAAACiI/9dVqKRj9l2Af565IghGL2si7V0jVQGHnQCLcBGAsYHQ/s1600/%25D8%25B5%25D9%2588%25D8%25B1-%25D8%25AE%25D9%2584%25D9%2581%25D9%258A%25D8%25A7%25D8%25AA-%25D9%2583%25D9%2585%25D8%25A8%25D9%258A%25D9%2588%25D8%25AA%25D8%25B1-%25D8%25B1%25D9%2588%25D8%25B9%25D9%2587-10.jpg");
+    background-size: cover;
     background-blend-mode: overlay;
     background-color: #0000008f;
 
@@ -180,14 +180,13 @@ div{
  img.Front:hover{
 
 
-
     background: white;
     /* width: 393px; */
     transform: translate(75px, 40px);
     /* width: 387px; */
     /* ZOOM: 1.345; */
     transform-box: fill-box;
-    transform: scale3d(2, 1.5, 1.5);
+    transform: scale3d(2.3, 1.5, .5);
 }
 
 img.Back{
@@ -225,13 +224,13 @@ img.Back{
 
 
 
-    background: white;
+        background: white;
     /* width: 393px; */
     transform: translate(75px, 40px);
     /* width: 387px; */
     /* ZOOM: 1.345; */
     transform-box: fill-box;
-    transform: scale3d(2, 1.5, 1.5);
+    transform: scale3d(2.3, 1.5, .5);
 }
 
 
@@ -239,34 +238,35 @@ img.Back{
 
 
 
-h3{    /* position: relative; */
+h3{   osition: relative; */
     b: vertical-rl;
     text-align: center;
     position: fixed;
     right: 0px;
     bottom: 0;
-    background: #000000;
-    margin: 2px;
-    padding: 14px;
+    background: #008391c9;
+    margin: 1px;
+    padding: 10px;
     color: white;
     word-spacing: 40px;
     border: solid;
-    border-bottom-left-radius: 63px;
+    border-bottom-left-radius: 115px;
     /* border-top-right-radius: 66px; */
     border-bottom-style: inherit;
     border-top-style: initial;
-    padding-left: 184px;
+    padding-left: 91px;
     margin-top: 19px;
     font-family: system-ui;
     : ;
     text-align: center;
+    font-size: x-large;
+
 }
 
  
 
 
-h2{    /* margin-left: 97px; */
-    text-align: center;
+h2{        text-align: center;
     color: aliceblue;
     border-spacing: 51px;
     background: #1b9ea89e;
@@ -275,7 +275,7 @@ h2{    /* margin-left: 97px; */
     margin-top: -11px;
     position: fixed;
     right: -2px;
-    top: 17px;
+    top: 9px;
     padding-left: 168px;
     padding-right: 125px;
     /* display: flex; */
@@ -284,16 +284,15 @@ h2{    /* margin-left: 97px; */
     border-radius: 65px;
     word-spacing: 7px;
     border-bottom: inset;
-    border-color: #ff24639c;
+       border-color: #ffffff;
     padding-bottom: 7px;
     padding-top: -31px;
     margin-top: -7px;
-
-
 }
 
 h2 a{
-   padding: 6px;
+      transition-duration: 0.3s;
+    padding: 6px;
     text-decoration: none;
     color: #000000;
     background: #ffffff82;
@@ -302,10 +301,27 @@ h2 a{
     /* border-color: black; */
     font-size: large;
     /* border: ridge; */
+    /* transition: 0.3s; */
+    transition-delay: 0.0001s;
+    transition-timing-function: step-start;
+    transition-timing-function: ease;
 }
 
+h2 a:hover{
+
+	    /* padding: 15px; */
+    margin-top: 69px;
+    border: groove;
+    /* background: black; */
+    transform: translate(10px, 10px);
+    color: aqua;
+
+}
+
+
+
 h1{
-    background: #ff76768f;
+        background: #231cf200;
     margin-left: -32px;
     margin-right: 248px;
     border-bottom: solid;
@@ -315,6 +331,7 @@ h1{
     text-align: center;
     font-family: -webkit-pictograph;
     color: aliceblue;
+
 }
 
 h4{   
@@ -338,12 +355,14 @@ TEXT-ALIGN: center;
 
 
 h4:hover{
-    background: black;
+        background: black;
     cursor: pointer;
     animation: auto;
     padding-left: 115px;
     margin-right: 54px;
     transform: translateY(9px);
+    
+
 }
 
 
@@ -372,8 +391,14 @@ img#rt{
     /* border: solid; */
     /* border-bottom-left-radius: 298px; */
     /* border-top-left-radius: 246px; */
-}
+    animation-name:fd;
+    animation-duration:1s; 
 
+}
+@kayframes fd{
+
+border-radius: 0px,
+}
 
 
 
